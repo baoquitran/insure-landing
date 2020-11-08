@@ -283,7 +283,7 @@ footer{
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
   .menu-bar{
     display: block;
     position: absolute;
@@ -318,12 +318,12 @@ footer{
     z-index: 1;
     text-align: center;
     top: 81px;
-    transform: translatex(-400px);
+    transform: translatex(-600px);
     transition: transform .5s ease;
     display: block;
   }
   .main-nav.show {
-    transform: translatex(-19px);
+    transform: translatex(-25px);
   }
   .main-nav ul {
     margin-top: 20px;
@@ -350,6 +350,7 @@ footer{
   }
   .intro-mobile-img{
     display: block;
+    width: 100%;
   }
   .introdution{
     order: 2;
